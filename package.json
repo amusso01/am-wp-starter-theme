@@ -1,9 +1,8 @@
 {
-  "name": "bymattlee-wp-starter-theme",
+  "name": "am-wp-starter-theme",
   "version": "1.0.0",
-  "description": "ByMattLee WP Starter Theme",
-  "homepage": "http://bymattlee.com",
-  "author": "Matt Lee <matt@bymattlee.com>",
+  "description": "am WP Starter Theme",
+  "author": "Andrea Musso",
   "engines": {
     "node": ">=14.17.0"
   },
@@ -14,7 +13,7 @@
     "prod": "NODE_ENV=production gulp build"
   },
   "keywords": [
-    "ByMattLee",
+    "AM",
     "WP",
     "Starter",
     "Theme"
@@ -22,10 +21,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bymattlee/bymattlee-wp-starter-theme.git"
-  },
-  "bugs": {
-    "url": "https://github.com/bymattlee/bymattlee-wp-starter-theme/issues"
+    "url": "https://github.com/amusso01/am-wp-starter-theme"
   },
   "devDependencies": {
     "@babel/core": "^7.17.10",
@@ -35,6 +31,7 @@
     "@tailwindcss/aspect-ratio": "^0.4.0",
     "acorn": "^8.7.1",
     "babel-eslint": "^10.1.0",
+    "babel-register": "^6.26.0",
     "browser-sync": "^2.27.9",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
@@ -42,6 +39,7 @@
     "gulp-autoprefixer": "^8.0.0",
     "gulp-better-rollup": "^4.0.1",
     "gulp-changed": "^4.0.3",
+    "gulp-clean": "^0.4.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-eslint": "^6.0.0",
@@ -55,9 +53,9 @@
     "gulp-sass": "^5.1.0",
     "gulp-size": "^4.0.1",
     "gulp-sourcemaps": "^3.0.0",
-    "gulp-svg-sprite": "^1.5.0",
     "gulp-terser": "^2.1.0",
     "imagemin-jpeg-recompress": "^7.0.0",
+    "imagemin-svgo": "^10.0.1",
     "postcss-reporter": "^7.0.5",
     "postcss-scss": "^4.0.4",
     "rollup": "^2.71.1",

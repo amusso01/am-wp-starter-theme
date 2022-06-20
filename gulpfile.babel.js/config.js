@@ -15,8 +15,8 @@ module.exports = {
     '**',
     '**',
     '**',
-    '**              {{ @bymattlee }}',
-    '**              {{ bymattlee.com }}',
+    '**              {{ @amusso01 }}',
+    '**              {{ https://github.com/amusso01 }}',
     '**',
     '**',
     '**',
@@ -69,6 +69,6 @@ module.exports = {
     dest:  dest
   },
   browserSync: {
-    proxy: 'localhost:10008'
+    proxy: 'am_starter.test'
   }
 };

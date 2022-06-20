@@ -65,4 +65,23 @@
     return $page->ID;
   }
 
+
+  /* DEBUG / DUMP'N DIE
+/––––––––––––––––––––––––*/
+function debug($var) {
+  echo '<pre>'.var_dump($var).'</pre>';
+}
+function dd($var) {
+  echo '<pre>'.var_dump($var).'</pre>';
+  die();
+}
+
+
+/* Return svg from ACF file field
+/––––––––––––––––––––––––*/
+function acfFile_toSvg($file){
+	if($file)
+    return str_replace('\'', '',  var_export(file_get_contents($file), true));
+}
+
 ?>

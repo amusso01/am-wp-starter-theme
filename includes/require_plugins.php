@@ -19,40 +19,12 @@
         'required'  => true,
       ),
 
-      // Require Contact Form 7 plugin
-      array(
-        'name'      => 'Contact Form 7',
-        'slug'      => 'contact-form-7',
-        'required'  => true,
-      ),
-
       // Require Favicon by RealFaviconGenerator plugin
       array(
         'name'      => 'Favicon by RealFaviconGenerator',
         'slug'      => 'favicon-by-realfavicongenerator',
         'required'  => true,
-      ),
-
-      // Require Yoast SEO plugin
-      array(
-        'name'      => 'Yoast SEO',
-        'slug'      => 'wordpress-seo',
-        'required'  => true,
-      ),
-
-      // Require Classic Editor plugin
-      array(
-        'name'      => 'Classic Editor',
-        'slug'      => 'classic-editor',
-        'required'  => true,
-      ),
-
-      // Require WP Migrate DB plugin
-      array(
-        'name'      => 'WP Migrate DB',
-        'slug'      => 'wp-migrate-db',
-        'required'  => true,
-      ),
+      )
 
     );
 
